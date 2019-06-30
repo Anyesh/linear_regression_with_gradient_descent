@@ -3,7 +3,9 @@ var m = 0;
 var b = 0;
 
 function setup(){
-    createCanvas(800, 400);
+    let height = screen.height - 105;
+    let width = screen.width;
+    createCanvas(width, height);
 }
 
 function mousePressed(){
